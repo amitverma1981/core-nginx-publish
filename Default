@@ -1,7 +1,7 @@
 server {
 listen 8082;
 
-root /var/www/netcoreapp2/core-nginx-publish/
+root /var/www/netcoreapp2/core-nginx-publish/;
 
 location /netcoreapp2/core-nginx-publish/ {
 proxy_pass http://localhost:5001;
